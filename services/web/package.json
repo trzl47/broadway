@@ -1,0 +1,24 @@
+{
+	"name": "adoptly",
+	"version": "2.0.0",
+	"description": "Pet adoption webapp built with react and docker",
+	"main": "index.js",
+  "scripts": {
+    "start": "PORT=3006 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+	"devDependencies": {
+		"react-scripts": "0.9.5"
+	},
+	"dependencies": {
+		"autoprefixer": "^6.7.7",
+		"axios": "^0.16.2",
+		"react": "^16.0.0",
+		"react-dom": "^16.0.0",
+		"react-redux": "^5.0.5",
+		"react-router-dom": "^4.1.1",
+		"redux": "^3.6.0"
+	}
+}

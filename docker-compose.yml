@@ -1,0 +1,13 @@
+version: '3'
+services:
+  adoptly-web:
+    build: ./services/web/
+    container_name: adoptly-web
+    restart: unless-stopped
+    ports:
+      - '3007:3006' # expose ports - HOST:CONTAINER
+    volumes:
+      - ./services/web:/usr/src/app
+      - /usr/src/app/node_modules
+    environment:
+      - NODE_ENV=development
