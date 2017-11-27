@@ -1,12 +1,12 @@
 // Components
-import Broadway from '../app/Broadway.js';
+import Main from '../app/Main.js';
 import NotFound from '../app/NotFound';
 
 export default {
 	routes: [
 		{
 			path: '/',
-			component: Broadway,
+			component: Main,
 			exact: true
 		},
 		{
