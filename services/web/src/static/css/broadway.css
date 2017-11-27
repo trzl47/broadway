@@ -7,15 +7,8 @@
 	background-color: #333333;
 }
 
-
-.container {
-	/*max-width: 940px;
-	margin: 0 auto;
-	padding: 0 10px;*/
-}
-
 .jumbotron {
-	background: url('./assets/bg.png');
+	background: url('../img/bg.png');
 	background-size: cover;
 	height: 800px;
 }
@@ -110,6 +103,7 @@
 	font-weight: 600;
 	font-size: 23px;
 	text-transform: uppercase;
+	color: #fff;
 }
 
 .supporting p {
@@ -118,6 +112,7 @@
 	line-height: 20px;
 	padding: 0 50px;
 	margin-bottom: 40px;
+	color: #fff;
 }
 
 .clearfix {
